@@ -1,5 +1,9 @@
-#authour: Andrew Garner
-#version: 1.0
+# authour: Andrew Garner
+# version: 1.0
+# This script searches a directory of PDFs on a shared drive for file names matching an account number. 
+# If one or more files exist then they are downloaded to a local folder and converted to a JPEG, 
+# which in turn are then displayed through the web browser using HTML.
+
 from pdf2image import convert_from_path
 import os
 import sys
